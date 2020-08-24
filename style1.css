@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: AirbnbCerealBlack;
+    font-size: 30px;
+    line-height: 39px;
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    
+}
+
+header {
+    width: 70%;
+    height: 13vh;
+    background-color:#FFFFFF;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+}
+
+
+.con {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+body {
+    font-family: AirbnbCerealBlack;
+    background-color: #FFFFFF;
+    line-height: 1,65;
+   
+}
+
+
+.container-satu {
+    display: flex;
+    
+}
+
+.kolom-utama {
+background-color: rgba(190, 195, 202, 0.3);
+flex: 8;
+order: 2;
+}
+
+.sidebar-satu {
+
+flex: 1;
+order: 1;
+}
+
+.sidebar-dua {
+flex: 4;
+order: 3;
+}
+.sidebar-dua > h3 {
+ text-align: center;
+}
+
+
+.container-empat {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    padding: 5px auto;
+    margin: 5px auto;
+    width: 251px;
+    height: 267px;
+}
+
+.card .content {
+    text-align: center;
+    
+}
+
+
+
+.sidebar-dua2 {
+    display: flex;
+    justify-content: space-between;
+}
+

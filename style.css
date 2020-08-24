@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.col-md-1 {
+    background-color:white;
+}
+
+.kolom-utama {
+    background-color: rgba(190, 195, 202, 0.3);
+
+}
+
+.container-empat {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card {
+    padding: 5px auto;
+    margin: 5px auto;
+    width: 251px;
+    height: 267px;  
+}
+
+.row {
+   display: flex;
+   
+}
+
